@@ -77,3 +77,31 @@ This project is about simple node.js project can be run inside docker container
    <p align="center">
     <img src="images/dockerignore.JPG" width="450">
    </p>
+
+## Build and run image
+1. Build image with terminal and using command **docker build . -t your_image_name**
+2. Check our image using command **docker images**
+
+   <p align="center">
+    <img src="images/build image.JPG" width="450">
+   </p>
+
+3. We can check our image in docker dekstop
+
+   <p align="center">
+    <img src="images/docker dekstop.JPG" width="450">
+   </p>
+
+4. And then run the image using command **docker run -p your-localport:app-port your_image_name**
+
+   <p align="center">
+    <img src="images/docker run.JPG" width="450">
+   </p>
+
+5. Let's check the result on localhost
+
+   <p align="center">
+    <img src="images/localhost.JPG" width="450">
+   </p>
+
+## The last step's push to Github all files that we created and finished
