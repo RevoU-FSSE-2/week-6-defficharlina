@@ -42,40 +42,40 @@ This project is about simple node.js project can be run inside docker container
 2. Install Docker
 
   <p align="center">
-    <img src="images/docker 2.JPG" width="450">
+    <img src="images/docker 2.JPG" width="600">
   </p>
 
-3. You can install WSL or update WSL
+3. You can install WSL or update WSL, and check the version of Docker and WSL
 
   <p align="center">
-    <img src="images/check docker wsl.JPG" width="450">
+    <img src="images/check docker wsl.JPG" width="600">
   </p>
 
 ## Create files 
 1. Clone repo https://github.com/RevoU-FSSE-2/week-6-defficharlina
 2. Download simple Node.js project from https://gist.github.com/berdoezt/e51718982926f0caa3fcd8ed45111430 and save with
-   name server.js in Visual Studio Code
+   name server.js in Visual Studio Code that define web app using express.js framework
 
    <p align="center">
-    <img src="images/server js.JPG" width="450">
+    <img src="images/server js.JPG" width="600">
    </p>
 
-3. Create file package.json
+3. Create file package.json that explain our apps and dependencies
 
    <p align="center">
-    <img src="images/package json.JPG" width="450">
+    <img src="images/package json.JPG" width="600">
    </p>
 
-4. Create Dockerfile
+4. Create Dockerfile using version 20 on alphine from Docker Hub
 
    <p align="center">
-    <img src="images/dockerfile.JPG" width="450">
+    <img src="images/dockerfile.JPG" width="600">
    </p>
 
 5. Create .dockerignore
 
    <p align="center">
-    <img src="images/dockerignore.JPG" width="450">
+    <img src="images/dockerignore.JPG" width="600">
    </p>
 
 ## Build and run image
@@ -83,25 +83,25 @@ This project is about simple node.js project can be run inside docker container
 2. Check our image using command **docker images**
 
    <p align="center">
-    <img src="images/build image.JPG" width="450">
+    <img src="images/build image.JPG" width="600">
    </p>
 
 3. We can check our image in docker dekstop
 
    <p align="center">
-    <img src="images/docker dekstop.JPG" width="450">
+    <img src="images/docker dekstop.JPG" width="600">
    </p>
 
 4. And then run the image using command **docker run -p your-localport:app-port your_image_name**
 
    <p align="center">
-    <img src="images/docker run.JPG" width="450">
+    <img src="images/docker run.JPG" width="600">
    </p>
 
 5. Let's check the result on localhost
 
    <p align="center">
-    <img src="images/localhost.JPG" width="450">
+    <img src="images/localhost.JPG" width="600">
    </p>
 
 ## The last step's push to Github all files that we created and finished
