@@ -73,6 +73,8 @@ This project is about simple node.js project can be run inside docker container
    </p>
 
 5. Create .dockerignore
+   The . dockerignore file is helpful to avoid inadvertently sending files or directories that are large or contain sensitive files to 
+   the daemon or avoid adding them to the image using the ADD or COPY commands.
 
    <p align="center">
     <img src="images/dockerignore.JPG" width="600">
@@ -83,25 +85,25 @@ This project is about simple node.js project can be run inside docker container
 2. Check our image using command **docker images**
 
    <p align="center">
-    <img src="images/build image.JPG" width="600">
+    <img src="images/build image.JPG" width="800">
    </p>
 
 3. We can check our image in docker dekstop
 
    <p align="center">
-    <img src="images/docker dekstop.JPG" width="600">
+    <img src="images/docker dekstop.JPG" width="800">
    </p>
 
 4. And then run the image using command **docker run -p your-localport:app-port your_image_name**
 
    <p align="center">
-    <img src="images/docker run.JPG" width="600">
+    <img src="images/docker run.JPG" width="800">
    </p>
 
 5. Let's check the result on localhost
 
    <p align="center">
-    <img src="images/localhost.JPG" width="600">
+    <img src="images/localhost.JPG" width="800">
    </p>
 
 ## The last step's push to Github all files that we created and finished
