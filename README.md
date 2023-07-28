@@ -36,7 +36,7 @@ This project is about simple node.js project can be run inside docker container
 1. Click Download Docker Dekstop Windows
 
   <p align="center">
-    <img src="images/docker 1.JPG" width="450">
+    <img src="images/docker 1.JPG" width="600">
   </p>
 
 2. Install Docker
