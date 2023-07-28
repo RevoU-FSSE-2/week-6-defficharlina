@@ -73,6 +73,7 @@ This project is about simple node.js project can be run inside docker container
    </p>
 
 5. Create .dockerignore
+   
    The . dockerignore file is helpful to avoid inadvertently sending files or directories that are large or contain sensitive files to 
    the daemon or avoid adding them to the image using the ADD or COPY commands.
 
